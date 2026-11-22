@@ -1,0 +1,50 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Django database
+root/db.sqlite3
+root/db.sqlite3-journal
+root/db.sqlite3.bak
+
+# Uploaded media
+root/media/*
+!root/media/.gitkeep
+
+# Dataset
+root/data/
+
+# Machine Learning model weights
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.keras
+*.onnx
+*.pkl
+*.joblib
+
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Build files
+dist/
+build/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
